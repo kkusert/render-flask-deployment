@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: your-app-name
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    runtime: python
